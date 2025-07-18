@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.HashMap;
 
 public class PrivateData {
-    private static final String password = "2005H@R$H";
+    private static final String password = "password";
     private static final HashMap<Integer, Integer> account_detail = new HashMap();
     private static final String query = "SELECT * FROM account";
     private static PreparedStatement preparedStatement;
